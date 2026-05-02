@@ -176,24 +176,24 @@
       "skip": "チュートリアルをスキップ"
     },
     "fileBrowser": {
-      "title": "Browse",
-      "goUp": "Go up one level",
-      "loading": "Loading...",
-      "empty": "Empty directory",
-      "dblClickHint": "Double-click to open",
-      "deleteDir": "Delete folder",
-      "folderPlaceholder": "Folder name...",
-      "newFolder": "+ New Folder",
-      "create": "Create",
-      "selectedPath": "Selected:",
-      "loadError": "Could not load directory.",
-      "createError": "Could not create folder.",
-      "deleteDirTitle": "Delete folder",
-      "deleteDirMessage": "Really delete \"{name}\" and all its contents?",
-      "deleteFileTitle": "Delete file",
-      "deleteFileMessage": "Really delete \"{name}\"?",
-      "deleteFile": "Delete file",
-      "deleteError": "Could not delete."
+      "title": "参照",
+      "goUp": "上の階層へ",
+      "loading": "読み込み中...",
+      "empty": "ディレクトリは空です",
+      "dblClickHint": "ダブルクリックで開く",
+      "deleteDir": "フォルダを削除",
+      "folderPlaceholder": "フォルダ名...",
+      "newFolder": "+ 新規フォルダ",
+      "create": "作成",
+      "selectedPath": "選択済み:",
+      "loadError": "ディレクトリを読み込めませんでした。",
+      "createError": "フォルダを作成できませんでした。",
+      "deleteDirTitle": "フォルダを削除",
+      "deleteDirMessage": "\"{name}\" とその中身をすべて削除しますか？",
+      "deleteFileTitle": "ファイルを削除",
+      "deleteFileMessage": "\"{name}\" を削除しますか？",
+      "deleteFile": "ファイルを削除",
+      "deleteError": "削除できませんでした。"
     },
     "settings": {
       "title": "設定",
@@ -376,17 +376,17 @@
       }
     },
     "alpacaDirect": {
-      "title": "Alpaca Direct Settings",
-      "ipAddress": "IP address",
-      "port": "Port",
-      "deviceNumber": "Device number",
-      "serviceType": "Service type",
-      "save": "Save",
-      "connect": "Connect",
-      "disconnect": "Disconnect",
-      "sharedGuidWarning": "Rotator and safety monitor share one storage slot in NINA — changing one also changes the other.",
-      "noReconnectHint": "New settings take effect on the next connect.",
-      "cameraNoSettings": "This camera has no settings to configure."
+      "title": "Alpaca Direct 設定",
+      "ipAddress": "IPアドレス",
+      "port": "ポート",
+      "deviceNumber": "デバイス番号",
+      "serviceType": "サービスタイプ",
+      "save": "保存",
+      "connect": "接続",
+      "disconnect": "切断",
+      "sharedGuidWarning": "NINAではローテーターとセーフティモニターが1つのストレージスロットを共有しています。一方を変更すると他方も変更されます。",
+      "noReconnectHint": "新しい設定は次回の接続時に反映されます。",
+      "cameraNoSettings": "このカメラには設定項目がありません。"
     },
     "connectEquipment": {
       "camera": {
@@ -743,27 +743,27 @@
           "duration": "時間 (分)"
         },
         "orbuculum": {
-          "hourAngle": "Hour Angle (h)",
-          "nextTarget": "Next target:",
-          "current": "Current:"
+          "hourAngle": "時角 (h)",
+          "nextTarget": "次のターゲット:",
+          "current": "現在:"
         },
         "autoBalancingExposure": {
-          "timeSeconds": "Time (s)",
-          "noEntries": "No entries",
-          "addRow": "Add row",
-          "progress": "Progress",
-          "ratio": "Ratio",
-          "bin": "Bin"
+          "timeSeconds": "時間 (秒)",
+          "noEntries": "エントリなし",
+          "addRow": "行を追加",
+          "progress": "進捗",
+          "ratio": "比率",
+          "bin": "ビニング"
         },
         "setReadoutMode": {
           "mode": "Mode"
         },
         "loopWhile": {
-          "expression": "Expression"
+          "expression": "条件式"
         },
         "slewScopeToAltAz": {
-          "azimuth": "Az",
-          "altitude": "Alt"
+          "azimuth": "方位角",
+          "altitude": "高度"
         },
         "moveFocuserAbsolute": {
           "position": "位置"
@@ -2136,37 +2136,37 @@
       }
     },
     "filebrowser": {
-      "title": "File Browser",
-      "subtitle": "Browse image folders and manage captured files.",
-      "jumpToImagePath": "Image Save Path",
-      "goUp": "Up",
-      "refresh": "Refresh",
-      "imagesOnly": "Images/FITS only",
-      "currentPath": "Current Path",
-      "directoriesCount": "Directories: {count}",
-      "filesCount": "Files: {count}",
-      "newFolderPlaceholder": "New folder name",
-      "createFolder": "Create Folder",
-      "loading": "Loading files...",
-      "empty": "This folder is empty.",
-      "openFolder": "Open",
-      "details": "Selection Details",
-      "type": "Type",
-      "directory": "Directory",
-      "file": "File",
-      "size": "Size",
-      "modified": "Modified",
-      "isImage": "Image/FITS",
-      "selectEntryHint": "Select a file or directory to see details.",
-      "onHoldTitle": "On Hold",
-      "onHoldMessage": "Rename and file open actions are intentionally on hold for now.",
-      "loadError": "Failed to load directory contents.",
-      "createError": "Failed to create directory.",
-      "deleteError": "Failed to delete entry.",
-      "deleteDirectoryTitle": "Delete Directory",
-      "deleteDirectoryMessage": "Delete directory \"{name}\" recursively?",
-      "deleteFileTitle": "Delete File",
-      "deleteFileMessage": "Delete file \"{name}\"?"
+      "title": "",
+      "subtitle": "画像フォルダの参照と撮影済みファイルの管理を行います。",
+      "jumpToImagePath": "画像保存先へ移動",
+      "goUp": "上へ",
+      "refresh": "更新",
+      "imagesOnly": "画像/FITSのみ表示",
+      "currentPath": "現在のパス",
+      "directoriesCount": "ディレクトリ数: {count}",
+      "filesCount": "ファイル数: {count}",
+      "newFolderPlaceholder": "新規フォルダ名",
+      "createFolder": "フォルダ作成",
+      "loading": "ファイルを読み込み中...",
+      "empty": "このフォルダは空です。",
+      "openFolder": "開く",
+      "details": "選択中の詳細",
+      "type": "種類",
+      "directory": "ディレクトリ",
+      "file": "ファイル",
+      "size": "サイズ",
+      "modified": "更新",
+      "isImage": "画像/FITSファイル",
+      "selectEntryHint": "ファイルまたはディレクトリを選択すると詳細が表示されます。",
+      "onHoldTitle": "一時停止中",
+      "onHoldMessage": "名前の変更とファイルを開く操作は、現在意図的に制限されています。",
+      "loadError": "ディレクトリの内容を読み込めませんでした。",
+      "createError": "ディレクトリを作成できませんでした。",
+      "deleteError": "削除できませんでした。",
+      "deleteDirectoryTitle": "ディレクトリを削除",
+      "deleteDirectoryMessage": "ディレクトリ \"{name}\" を中身ごと完全に削除しますか？",
+      "deleteFileTitle": "ファイルを削除",
+      "deleteFileMessage": "ファイル \"{name}\" を削除しますか？"
     },
     "sequenceCreator": {
       "title": "シーケンスクリエーター",
